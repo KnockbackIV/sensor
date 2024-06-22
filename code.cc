@@ -23,7 +23,7 @@ void loop()
   b=map(a,0,1023,0,255);
   lcd_1.setCursor(0, 0);
   if(b>100){
-    lcd_1.print("hello world");
+    lcd_1.print("Welcome To AFSCN!");
   }
   
   
